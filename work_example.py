@@ -1,17 +1,5 @@
-from tkinter import *
+
 import groq
-
-root = Tk()
-
-root.title('AI-Pal Alpha')
-root.geometry('1500x1200')
-
-canvas = 
-
-lbl = Label(root, text = '')
-
-lbl.grid()
-root.mainloop()
 
 
 client = groq.Client(api_key="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")  # Replace with your actual API key
