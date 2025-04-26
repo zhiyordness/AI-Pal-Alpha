@@ -19,7 +19,7 @@ if __name__ == "__main__":
     print("Welcome to your AI chatbot! Type 'exit' to quit.")
     while True:
         user_input = input("\nYou: ")
-        if user_input.lower() in ["exit", "quit"]:
+        if user_input.lower() in ["exit", "quit", "bye"]:
             print("\nGoodbye! 👋")
             break
         response = get_ai_response(user_input)
